@@ -11,8 +11,11 @@ const profilRoutes = require('./routes/profilRoutes');
 const { sequelize } = require('./models');
 const { createSuperAdmin } = require('./controllers/adminController');
 
+
 dotenv.config();
 const app = express();
+// cors
+
 
 // Set up view engine
 app.set('view engine', 'ejs');
@@ -98,6 +101,8 @@ app.use((error, req, res, next) => {
   res.status(error.status || 500);
   res.json({ error: { message: error.message } });
 });
+
+
 
 // // Buat akun superadmin jika belum ada
 //  sequelize.sync().then(async () => {
