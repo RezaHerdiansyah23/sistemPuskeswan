@@ -110,6 +110,7 @@ Aplikasi akan berjalan di `http://localhost:3000`.
 
 ## 👨‍💻 Kontributor
 - **Reza Herdiansyah**
+- **Riska Nurhayan**
 
 ---
 © 2025 Sistem Puskeswan. All rights reserved.
